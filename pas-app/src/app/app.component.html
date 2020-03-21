@@ -1,10 +1,8 @@
-<app-topnav></app-topnav>
-<div class="row">
-  <div class="col-1">
-    <app-leftnav></app-leftnav>
-  </div>
-  <div class="col">
-    <router-outlet></router-outlet>
-  </div>
+<div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+    <app-topnav></app-topnav>
+    <app-theme-settings></app-theme-settings>
+    <div class="app-main">
+        <app-leftnav></app-leftnav>
+        <router-outlet></router-outlet>
+    </div>
 </div>
-

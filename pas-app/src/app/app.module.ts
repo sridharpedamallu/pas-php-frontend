@@ -22,6 +22,7 @@ import { CustomerContactAtaChaptersComponent } from './components/customer/custo
 import { CustomerContactViewComponent } from './components/customer/customer-contacts/customer-contact-view/customer-contact-view.component';
 import { TopnavComponent } from './layout/topnav.component';
 import { LeftnavComponent } from './layout/leftnav.component';
+import { ThemeSettingsComponent } from './layout/theme-settings.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { LeftnavComponent } from './layout/leftnav.component';
     CustomerContactAtaChaptersComponent,
     CustomerContactViewComponent,
     TopnavComponent,
-    LeftnavComponent
+    LeftnavComponent,
+    ThemeSettingsComponent
   ],
   imports: [
     BrowserModule,
