@@ -19,41 +19,39 @@
                         <span class="btn-icon-wrapper pr-2 opacity-7">
                             <i class="fa fa-business-time fa-w-20"></i>
                         </span>
-                        Buttons
+                        Actions
                     </button>
                     <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
                         <ul class="nav flex-column">
                             <li class="nav-item">
                                 <a href="javascript:void(0);" class="nav-link">
-                                    <i class="nav-link-icon lnr-inbox"></i>
+                                    <i class="nav-link-icon pe-7s-add-user"></i>
                                     <span>
-                                        Inbox
+                                        Create Customer
                                     </span>
-                                    <div class="ml-auto badge badge-pill badge-secondary">86</div>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="javascript:void(0);" class="nav-link">
-                                    <i class="nav-link-icon lnr-book"></i>
+                                    <i class="nav-link-icon pe-7s-cloud-upload"></i>
                                     <span>
-                                        Book
+                                        Upload
                                     </span>
-                                    <div class="ml-auto badge badge-pill badge-danger">5</div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" class="nav-link">
+                                    <i class="nav-link-icon pe-7s-cloud-download"></i>
+                                    <span>
+                                        Download All
+                                    </span>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="javascript:void(0);" class="nav-link">
                                     <i class="nav-link-icon lnr-picture"></i>
                                     <span>
-                                        Picture
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a disabled="disabled" href="javascript:void(0);" class="nav-link disabled">
-                                    <i class="nav-link-icon lnr-file-empty"></i>
-                                    <span>
-                                        File Disabled
+                                        Download Selected
                                     </span>
                                 </a>
                             </li>
@@ -66,35 +64,582 @@
     <div class="col-lg">
         <div class="main-card mb-3 card">
             <div class="card-body">
-                <h5 class="card-title">Table with hover</h5>
                 <table class="mb-0 table table-hover">
                     <thead>
                         <tr>
-                            <th>#</th>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>Username</th>
+                          <td colspan="10">Showing 1 to 10</td>
+                          <td colspan="2" align="right">
+                            <div class="row">
+                              <div class="col">
+                                <select>
+                                  <option value="10">10</option>
+                                  <option value="10">10</option>
+                                  <option value="10">10</option>
+                                  <option value="10">10</option>
+                              </select>
+                              <a href="#" class="btn btn-link">
+                                <span>First</span></a>
+                              <a href="#" class="btn btn-link">
+                                <span>Previous</span></a>
+                              <a href="#" class="btn btn-link">
+                                <span>Next</span></a>
+                              <a href="#" class="btn btn-link">
+                                <span>Last</span></a>
+                              </div>
+                            </div>
+
+                          </td>
+                        </tr>
+                        <tr>
+                            <th>
+                              <input type="checkbox" class="position-relative form-check">
+                            </th>
+                            <th>Code
+                              <input type="text" class="form-control form-control-sm">
+                            </th>
+                            <th>Name
+                              <input type="text" class="form-control form-control-sm">
+                            </th>
+                            <th>Account type
+                              <select class="form-control form-control-sm">
+                                <option></option>
+                                <option value="1">Opportunity</option>
+                                <option value="2">Customer</option>
+                                <option value="3">Prospect</option>
+                                <option value="4">Lead</option>
+                            </select>
+                            </th>
+                            <th>Type
+                              <select class="form-control form-control-sm">
+                                <option></option>
+                                <option value="1">External</option>
+                                <option value="2">Internal</option>
+                                <option value="3">Affliate</option>
+                            </select>
+                            </th>
+                            <th>Classification
+                              <select class="form-control form-control-sm">
+                                <option></option>
+                                <option value="1">External</option>
+                                <option value="2">Internal</option>
+                                <option value="3">Affliate</option>
+                            </select>
+                            </th>
+                            <th>Email
+                              <input type="text" class="form-control form-control-sm">
+                            </th>
+                            <th>City
+                              <input type="text" class="form-control form-control-sm">
+                            </th>
+                            <th>State
+                              <input type="text" class="form-control form-control-sm">
+                            </th>
+                            <th>Contact
+                              <input type="text" class="form-control form-control-sm">
+                            </th>
+                            <th>Sales Person
+                              <input type="text" class="form-control form-control-sm">
+                            </th>
+                            <th style="width: 150px">Actions</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">1</th>
+                            <td><input type="checkbox" class="position-relative form-check"></td>
                             <td>Mark</td>
                             <td>Otto</td>
                             <td>@mdo</td>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>
+                                <div class="d-inline-block dropdown">
+                                    <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-info">
+                                        <span class="btn-icon-wrapper pr-2 opacity-7">
+                                            <i class="fa fa-business-time fa-w-20"></i>
+                                        </span>
+                                        Actions
+                                    </button>
+                                    <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link">
+                                                    <i class="nav-link-icon pe-7s-id"></i>&nbsp;<span>Edit</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link">
+                                                    <i class="nav-link-icon pe-7s-note2"></i>&nbsp;
+                                                    <span>View</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link">
+                                                    <i class="nav-link-icon pe-7s-users"></i>&nbsp;
+                                                    <span>Contacts</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link">
+                                                    <i class="nav-link-icon pe-7s-keypad"></i>&nbsp;
+                                                    <span>Sites</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link">
+                                                    <i class="nav-link-icon pe-7s-paperclip"></i>&nbsp;
+                                                    <span>Documents</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link">
+                                                    <i class="nav-link-icon pe-7s-trash"></i>&nbsp;
+                                                    <span>Delete</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
+                          <td><input type="checkbox" class="position-relative form-check"></td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                          <td>@mdo</td>
+                          <td>
+                              <div class="d-inline-block dropdown">
+                                  <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-info">
+                                      <span class="btn-icon-wrapper pr-2 opacity-7">
+                                          <i class="fa fa-business-time fa-w-20"></i>
+                                      </span>
+                                      Actions
+                                  </button>
+                                  <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                                      <ul class="nav flex-column">
+                                          <li class="nav-item">
+                                              <a href="javascript:void(0);" class="nav-link">
+                                                  <i class="nav-link-icon pe-7s-id"></i>&nbsp;<span>Edit</span>
+                                              </a>
+                                          </li>
+                                          <li class="nav-item">
+                                              <a href="javascript:void(0);" class="nav-link">
+                                                  <i class="nav-link-icon pe-7s-note2"></i>&nbsp;
+                                                  <span>View</span>
+                                              </a>
+                                          </li>
+                                          <li class="nav-item">
+                                              <a href="javascript:void(0);" class="nav-link">
+                                                  <i class="nav-link-icon pe-7s-users"></i>&nbsp;
+                                                  <span>Contacts</span>
+                                              </a>
+                                          </li>
+                                          <li class="nav-item">
+                                              <a href="javascript:void(0);" class="nav-link">
+                                                  <i class="nav-link-icon pe-7s-keypad"></i>&nbsp;
+                                                  <span>Sites</span>
+                                              </a>
+                                          </li>
+                                          <li class="nav-item">
+                                              <a href="javascript:void(0);" class="nav-link">
+                                                  <i class="nav-link-icon pe-7s-paperclip"></i>&nbsp;
+                                                  <span>Documents</span>
+                                              </a>
+                                          </li>
+                                          <li class="nav-item">
+                                              <a href="javascript:void(0);" class="nav-link">
+                                                  <i class="nav-link-icon pe-7s-trash"></i>&nbsp;
+                                                  <span>Delete</span>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" class="position-relative form-check"></td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td>
+                            <div class="d-inline-block dropdown">
+                                <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-info">
+                                    <span class="btn-icon-wrapper pr-2 opacity-7">
+                                        <i class="fa fa-business-time fa-w-20"></i>
+                                    </span>
+                                    Actions
+                                </button>
+                                <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                <i class="nav-link-icon pe-7s-id"></i>&nbsp;<span>Edit</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                <i class="nav-link-icon pe-7s-note2"></i>&nbsp;
+                                                <span>View</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                <i class="nav-link-icon pe-7s-users"></i>&nbsp;
+                                                <span>Contacts</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                <i class="nav-link-icon pe-7s-keypad"></i>&nbsp;
+                                                <span>Sites</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                <i class="nav-link-icon pe-7s-paperclip"></i>&nbsp;
+                                                <span>Documents</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                <i class="nav-link-icon pe-7s-trash"></i>&nbsp;
+                                                <span>Delete</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" class="position-relative form-check"></td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td>@mdo</td>
+                      <td>
+                          <div class="d-inline-block dropdown">
+                              <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-info">
+                                  <span class="btn-icon-wrapper pr-2 opacity-7">
+                                      <i class="fa fa-business-time fa-w-20"></i>
+                                  </span>
+                                  Actions
+                              </button>
+                              <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                                  <ul class="nav flex-column">
+                                      <li class="nav-item">
+                                          <a href="javascript:void(0);" class="nav-link">
+                                              <i class="nav-link-icon pe-7s-id"></i>&nbsp;<span>Edit</span>
+                                          </a>
+                                      </li>
+                                      <li class="nav-item">
+                                          <a href="javascript:void(0);" class="nav-link">
+                                              <i class="nav-link-icon pe-7s-note2"></i>&nbsp;
+                                              <span>View</span>
+                                          </a>
+                                      </li>
+                                      <li class="nav-item">
+                                          <a href="javascript:void(0);" class="nav-link">
+                                              <i class="nav-link-icon pe-7s-users"></i>&nbsp;
+                                              <span>Contacts</span>
+                                          </a>
+                                      </li>
+                                      <li class="nav-item">
+                                          <a href="javascript:void(0);" class="nav-link">
+                                              <i class="nav-link-icon pe-7s-keypad"></i>&nbsp;
+                                              <span>Sites</span>
+                                          </a>
+                                      </li>
+                                      <li class="nav-item">
+                                          <a href="javascript:void(0);" class="nav-link">
+                                              <i class="nav-link-icon pe-7s-paperclip"></i>&nbsp;
+                                              <span>Documents</span>
+                                          </a>
+                                      </li>
+                                      <li class="nav-item">
+                                          <a href="javascript:void(0);" class="nav-link">
+                                              <i class="nav-link-icon pe-7s-trash"></i>&nbsp;
+                                              <span>Delete</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" class="position-relative form-check"></td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                    <td>
+                        <div class="d-inline-block dropdown">
+                            <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-info">
+                                <span class="btn-icon-wrapper pr-2 opacity-7">
+                                    <i class="fa fa-business-time fa-w-20"></i>
+                                </span>
+                                Actions
+                            </button>
+                            <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0);" class="nav-link">
+                                            <i class="nav-link-icon pe-7s-id"></i>&nbsp;<span>Edit</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0);" class="nav-link">
+                                            <i class="nav-link-icon pe-7s-note2"></i>&nbsp;
+                                            <span>View</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0);" class="nav-link">
+                                            <i class="nav-link-icon pe-7s-users"></i>&nbsp;
+                                            <span>Contacts</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0);" class="nav-link">
+                                            <i class="nav-link-icon pe-7s-keypad"></i>&nbsp;
+                                            <span>Sites</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0);" class="nav-link">
+                                            <i class="nav-link-icon pe-7s-paperclip"></i>&nbsp;
+                                            <span>Documents</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0);" class="nav-link">
+                                            <i class="nav-link-icon pe-7s-trash"></i>&nbsp;
+                                            <span>Delete</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" class="position-relative form-check"></td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>
+                      <div class="d-inline-block dropdown">
+                          <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-info">
+                              <span class="btn-icon-wrapper pr-2 opacity-7">
+                                  <i class="fa fa-business-time fa-w-20"></i>
+                              </span>
+                              Actions
+                          </button>
+                          <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                              <ul class="nav flex-column">
+                                  <li class="nav-item">
+                                      <a href="javascript:void(0);" class="nav-link">
+                                          <i class="nav-link-icon pe-7s-id"></i>&nbsp;<span>Edit</span>
+                                      </a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a href="javascript:void(0);" class="nav-link">
+                                          <i class="nav-link-icon pe-7s-note2"></i>&nbsp;
+                                          <span>View</span>
+                                      </a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a href="javascript:void(0);" class="nav-link">
+                                          <i class="nav-link-icon pe-7s-users"></i>&nbsp;
+                                          <span>Contacts</span>
+                                      </a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a href="javascript:void(0);" class="nav-link">
+                                          <i class="nav-link-icon pe-7s-keypad"></i>&nbsp;
+                                          <span>Sites</span>
+                                      </a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a href="javascript:void(0);" class="nav-link">
+                                          <i class="nav-link-icon pe-7s-paperclip"></i>&nbsp;
+                                          <span>Documents</span>
+                                      </a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a href="javascript:void(0);" class="nav-link">
+                                          <i class="nav-link-icon pe-7s-trash"></i>&nbsp;
+                                          <span>Delete</span>
+                                      </a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" class="position-relative form-check"></td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>
+                    <div class="d-inline-block dropdown">
+                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-info">
+                            <span class="btn-icon-wrapper pr-2 opacity-7">
+                                <i class="fa fa-business-time fa-w-20"></i>
+                            </span>
+                            Actions
+                        </button>
+                        <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="javascript:void(0);" class="nav-link">
+                                        <i class="nav-link-icon pe-7s-id"></i>&nbsp;<span>Edit</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="javascript:void(0);" class="nav-link">
+                                        <i class="nav-link-icon pe-7s-note2"></i>&nbsp;
+                                        <span>View</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="javascript:void(0);" class="nav-link">
+                                        <i class="nav-link-icon pe-7s-users"></i>&nbsp;
+                                        <span>Contacts</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="javascript:void(0);" class="nav-link">
+                                        <i class="nav-link-icon pe-7s-keypad"></i>&nbsp;
+                                        <span>Sites</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="javascript:void(0);" class="nav-link">
+                                        <i class="nav-link-icon pe-7s-paperclip"></i>&nbsp;
+                                        <span>Documents</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="javascript:void(0);" class="nav-link">
+                                        <i class="nav-link-icon pe-7s-trash"></i>&nbsp;
+                                        <span>Delete</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" class="position-relative form-check"></td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>
+                  <div class="d-inline-block dropdown">
+                      <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-info">
+                          <span class="btn-icon-wrapper pr-2 opacity-7">
+                              <i class="fa fa-business-time fa-w-20"></i>
+                          </span>
+                          Actions
+                      </button>
+                      <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                          <ul class="nav flex-column">
+                              <li class="nav-item">
+                                  <a href="javascript:void(0);" class="nav-link">
+                                      <i class="nav-link-icon pe-7s-id"></i>&nbsp;<span>Edit</span>
+                                  </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="javascript:void(0);" class="nav-link">
+                                      <i class="nav-link-icon pe-7s-note2"></i>&nbsp;
+                                      <span>View</span>
+                                  </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="javascript:void(0);" class="nav-link">
+                                      <i class="nav-link-icon pe-7s-users"></i>&nbsp;
+                                      <span>Contacts</span>
+                                  </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="javascript:void(0);" class="nav-link">
+                                      <i class="nav-link-icon pe-7s-keypad"></i>&nbsp;
+                                      <span>Sites</span>
+                                  </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="javascript:void(0);" class="nav-link">
+                                      <i class="nav-link-icon pe-7s-paperclip"></i>&nbsp;
+                                      <span>Documents</span>
+                                  </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="javascript:void(0);" class="nav-link">
+                                      <i class="nav-link-icon pe-7s-trash"></i>&nbsp;
+                                      <span>Delete</span>
+                                  </a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </td>
+          </tr>
                     </tbody>
                 </table>
             </div>
