@@ -27,7 +27,7 @@
                               <a href="javascript:void(0);" class="nav-link">
                                   <i class="nav-link-icon pe-7s-add-user"></i>
                                   <span>
-                                      Create Customer
+                                      Create Item-Master
                                   </span>
                               </a>
                           </li>
@@ -67,8 +67,8 @@
               <table class="mb-0 table table-hover">
                   <thead>
                       <tr>
-                        <td colspan="10">Showing 1 to 10</td>
-                        <td colspan="2" align="right">
+                        <td colspan="5">Showing 1 to 10</td>
+                        <td colspan="5" align="right">
                           <div class="row">
                             <div class="col">
                               <select>
@@ -94,28 +94,14 @@
                           <th>
                             <input type="checkbox" class="position-relative form-check">
                           </th>
-                          <th>Code
+                          <th>Part Number (PN)
                             <input type="text" class="form-control form-control-sm">
                           </th>
-                          <th>Name
+                          <th>Description
                             <input type="text" class="form-control form-control-sm">
                           </th>
-                          <th>Account type
-                            <select class="form-control form-control-sm">
-                              <option></option>
-                              <option value="1">Opportunity</option>
-                              <option value="2">Customer</option>
-                              <option value="3">Prospect</option>
-                              <option value="4">Lead</option>
-                          </select>
-                          </th>
-                          <th>Type
-                            <select class="form-control form-control-sm">
-                              <option></option>
-                              <option value="1">External</option>
-                              <option value="2">Internal</option>
-                              <option value="3">Affliate</option>
-                          </select>
+                          <th>Manufacturer
+                            <input type="text" class="form-control form-control-sm">
                           </th>
                           <th>Classification
                             <select class="form-control form-control-sm">
@@ -125,22 +111,32 @@
                               <option value="3">Affliate</option>
                           </select>
                           </th>
-                          <th>Email
+                          <th>Group Name
+                            <select class="form-control form-control-sm">
+                              <option></option>
+                              <option value="1">External</option>
+                              <option value="2">Internal</option>
+                              <option value="3">Affliate</option>
+                          </select>
+                          </th>
+                          <th>NSN
                             <input type="text" class="form-control form-control-sm">
                           </th>
-                          <th>City
-                            <input type="text" class="form-control form-control-sm">
+                          <th>Serial Number
+                            <select class="form-control form-control-sm">
+                              <option></option>
+                              <option value="1">Yes</option>
+                              <option value="2">No</option>
+                          </select>
                           </th>
-                          <th>State
-                            <input type="text" class="form-control form-control-sm">
+                          <th>Time Life
+                            <select class="form-control form-control-sm">
+                              <option></option>
+                              <option value="1">Yes</option>
+                              <option value="2">No</option>
+                          </select>
                           </th>
-                          <th>Contact
-                            <input type="text" class="form-control form-control-sm">
-                          </th>
-                          <th>Sales Person
-                            <input type="text" class="form-control form-control-sm">
-                          </th>
-                          <th style="width: 150px">Actions</th>
+                          <th style="width: 150px">&nbsp;</th>
                       </tr>
                   </thead>
                   <tbody>
@@ -150,8 +146,6 @@
                           <td>Otto</td>
                           <td>@mdo</td>
                           <td>Mark</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
                           <td>Mark</td>
                           <td>Otto</td>
                           <td>@mdo</td>
@@ -213,8 +207,6 @@
                         <td>@mdo</td>
                         <td>Mark</td>
                         <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>Mark</td>
                         <td>Otto</td>
                         <td>@mdo</td>
                         <td>@mdo</td>
@@ -275,8 +267,6 @@
                       <td>@mdo</td>
                       <td>Mark</td>
                       <td>Otto</td>
-                      <td>@mdo</td>
-                      <td>Mark</td>
                       <td>Otto</td>
                       <td>@mdo</td>
                       <td>@mdo</td>
@@ -336,8 +326,6 @@
                     <td>Otto</td>
                     <td>@mdo</td>
                     <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
                     <td>Mark</td>
                     <td>Otto</td>
                     <td>@mdo</td>
@@ -398,8 +386,6 @@
                   <td>Otto</td>
                   <td>@mdo</td>
                   <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
                   <td>Mark</td>
                   <td>Otto</td>
                   <td>@mdo</td>
@@ -458,8 +444,6 @@
                 <td><input type="checkbox" class="position-relative form-check"></td>
                 <td>Mark</td>
                 <td>Otto</td>
-                <td>@mdo</td>
-                <td>Mark</td>
                 <td>Otto</td>
                 <td>@mdo</td>
                 <td>Mark</td>
@@ -522,8 +506,6 @@
               <td>Otto</td>
               <td>@mdo</td>
               <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
               <td>Mark</td>
               <td>Otto</td>
               <td>@mdo</td>
@@ -584,8 +566,6 @@
             <td>Otto</td>
             <td>@mdo</td>
             <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
             <td>Mark</td>
             <td>Otto</td>
             <td>@mdo</td>
