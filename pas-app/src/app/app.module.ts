@@ -20,6 +20,8 @@ import { CustomerContactsComponent } from './components/customer/customer-contac
 import { CustomerContactAddEditComponent } from './components/customer/customer-contacts/customer-contact-add-edit/customer-contact-add-edit.component';
 import { CustomerContactAtaChaptersComponent } from './components/customer/customer-contacts/customer-contact-ata-chapters/customer-contact-ata-chapters.component';
 import { CustomerContactViewComponent } from './components/customer/customer-contacts/customer-contact-view/customer-contact-view.component';
+import { TopnavComponent } from './layout/topnav.component';
+import { LeftnavComponent } from './layout/leftnav.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { CustomerContactViewComponent } from './components/customer/customer-con
     CustomerContactsComponent,
     CustomerContactAddEditComponent,
     CustomerContactAtaChaptersComponent,
-    CustomerContactViewComponent
+    CustomerContactViewComponent,
+    TopnavComponent,
+    LeftnavComponent
   ],
   imports: [
     BrowserModule,
