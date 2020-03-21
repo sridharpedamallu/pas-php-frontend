@@ -23,6 +23,7 @@ import { CustomerContactViewComponent } from './components/customer/customer-con
 import { TopnavComponent } from './layout/topnav.component';
 import { LeftnavComponent } from './layout/leftnav.component';
 import { ThemeSettingsComponent } from './layout/theme-settings.component';
+import { FooterComponent } from './layout/footer.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { ThemeSettingsComponent } from './layout/theme-settings.component';
     CustomerContactViewComponent,
     TopnavComponent,
     LeftnavComponent,
-    ThemeSettingsComponent
+    ThemeSettingsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
